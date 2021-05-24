@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/projects.css">
+    <link rel="stylesheet" href="./styles/about.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+    <link rel="stylesheet" href="./styles/hr.css">
+    <title>Spiros</title>
+</head>
+
+<body>
+    <header id="home">
+        <div class="burger-menu">
+            <div class="burger-line"></div>
+        </div>
+        <nav class="nav-container">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+            </ul>
+        </nav>
+        <div id="intro-container" class="flex">
+            <div class="container">
+                <div class="intro-text"><span class="text"></span><span class="underscore">_</span></div>
+            </div>
+        </div>
+    </header>
+    <hr>
+    <main>
+        <section id="about" class="about">
+            <div class="about-container">
+                <div class="me">
+                    <h5>I am Spiros!</h5>
+                    <p>An entry level full-stack web developer.</p>
+                    <p class="description">With a background in Physical Education, I have decided to apply my passion for technology to a career in software development. I am a motivated entry level full-stack web developer, desiring to use education and on-the-job training to gain real-world experience with a growing team. Dedicated to improving skills through hands-on learning and continuing training. I have familiarity with C and C++, Object-Oriented Programming concepts, C#, and .NET framework. Always paying attention to detail and deliver on schedule.</p>
+                </div>
+                <div class="image"></div>
+                <div class="studies">
+                    <div class="uni">
+                        <img src="./img/hellenic.png" alt="" width="290px">
+                        <a href="https://www.eap.gr/education/undergraduate/computer-science/">BSc Computer Science</a>
+                    </div>
+                    <div class="uni">
+                        <img class="auth" src="./img/LogoAUTH.png" alt="" width="139px" height="139px">
+                        <a href="https://www.phed.auth.gr/">BSc Physical Education and Sports Science</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section id="projects" class="projects-container">
+            <div class="project">
+                <div class="background c-background"></div>
+                <h5>Tic Tac Toe</h5>
+                <p>Technology Used: C</p>
+                <a href="https://github.com/sppat/tic_tac_toe" target="_blank">GitHub</a>
+            </div>
+            <div class="project">
+                <div class="background cs-background"></div>
+                <h5>Private School</h5>
+                <p>Technology Used: C#</p>
+                <a href="https://github.com/sppat/PrivateSchool" target="_blank">GitHub</a>
+            </div>
+            <div class="project">
+                <div class="background html-background"></div>
+                <h5>Photography Landing Page</h5>
+                <p>Technologies Used: HTML, CSS, JavaScript</p>
+                <a href="https://github.com/sppat/Photography_Website" target="_blank">GitHub</a>
+            </div>
+        </section>
+        <hr>
+        <footer>
+            <h5>Spiros &copy;</h5>
+        </footer>
+    </main>
+    <script src="./scripts/intro.js"></script>
+    <script src="./scripts/burger.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,6 @@
+hr {
+    width: 4vw;
+    margin: 2rem auto;
+    border: none;
+    border-top: 0.5rem dotted #00b2ca;
+}

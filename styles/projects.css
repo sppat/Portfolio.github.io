@@ -1,0 +1,91 @@
+h5 {
+    font-size: 1.872rem;
+}
+
+p {
+    font-size: 1.4rem;
+}
+
+h5,
+p,
+a {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Projects Styles*/
+
+.projects-container {
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.project {
+    width: 30rem;
+    height: 35rem;
+    border: none;  
+    border-radius: 0.5rem;
+    text-align: center;
+    box-shadow: 0.5rem 0.5rem 2rem 0.2rem black;
+    animation: motion 1s infinite alternate ease-in-out;
+}
+
+.project:hover {
+    animation: none;
+}
+
+.project .background {
+    height: 50%;
+    width: 100%;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+.c-background {
+    background: url('../img/Tic_Tac_Toe_Instructions.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.cs-background {
+    background: url('../img/Private_School_Instructions.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.html-background {
+    background: url('../img/Elena_Joy.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.project h5,
+.project p {
+    margin: 1.5rem 0;
+}
+
+@keyframes motion {
+    0% {
+        transform: translateY(-0.1rem);
+    }
+
+    100% {
+        transform: translateY(1rem);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .project {
+        animation: none;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .project:nth-child(2) {
+        margin: 5rem 0;
+    }
+}
